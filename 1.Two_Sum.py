@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums, target):
-        num_map = {}  # to store number and its index
+        num_map = {} 
         for i, num in enumerate(nums):
             complement = target - num
             if complement in num_map:
